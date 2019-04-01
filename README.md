@@ -17,9 +17,9 @@ Provided methods:
    
 ## Installation       
   
-    gem 'rails5_before_render'
+    gem 'rails6_before_render'
   
-Warning: Rails 5 only. 
+Warning: Rails 6 only. 
  
 ## Usage
 before_render / prepend\_before\_render / skip\_before\_render works as other filters. Options
