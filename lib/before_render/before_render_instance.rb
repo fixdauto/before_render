@@ -1,6 +1,6 @@
 require 'action_controller'
 
-module Rails6BeforeRender
+module Rails5BeforeRender
     module BeforeRenderInstance
 
         def render(*args, &blk)
@@ -12,4 +12,4 @@ module Rails6BeforeRender
     end
 end
 
-ActionController::Base.prepend Rails6BeforeRender::BeforeRenderInstance
+ActionController::Base.prepend Rails5BeforeRender::BeforeRenderInstance

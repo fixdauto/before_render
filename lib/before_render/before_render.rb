@@ -1,6 +1,6 @@
 require 'action_controller'
 
-module Rails6BeforeRender
+module Rails5BeforeRender
     module BeforeRender
         extend ActiveSupport::Concern
         include ActiveSupport::Callbacks
@@ -39,4 +39,4 @@ module Rails6BeforeRender
     end
 end
 
-ActionController::Base.include Rails6BeforeRender::BeforeRender
+ActionController::Base.include Rails5BeforeRender::BeforeRender
