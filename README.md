@@ -6,8 +6,8 @@ Add a hook like before_filter to your controllers that gets executed between
 when your action is completed and the template is rendered.  It can really
 DRY up loading some data that is used for views (headers / layouts / etc).
 
-Plugin heavily based on Vladimir Penkin's rails3_before_render which in turn
-is based on before_filter for Rails 2 by Todd Willey. 
+Plugin heavily based on Todd Knarr's rails5_before_render which is based on Vladimir Penkin's rails3_before_render 
+which in turn is based on before_filter for Rails 2 by Todd Willey. 
 
 Provided methods:
 
@@ -47,7 +47,7 @@ Method ping will be executed after your actions and before template is rendered.
 
 ## Author
 Copyright (c) 2013 Nilesh Chaudhari, released under the MIT license. Plugin heavily based on
-Vladimir Penkin's rails3_before_render which in turn is based on before_filter for Rails 2 by
-Todd Willey. Updated by Todd Knarr to supersede the outdated version on RubyGems and to depend
-explicitly on Rails 5.x so it won't break with later versions, gem renamed to avoid collision
-with the outdated version.
+Todd Knarr's rails5_before_render which is based on Vladimir Penkin's rails3_before_render 
+which in turn is based on before_filter for Rails 2 by Todd Willey. Updated to supersede 
+the outdated version on RubyGems and to depend explicitly on Rails 6.x so it won't break with
+later versions, gem renamed to avoid collision with the outdated version.
