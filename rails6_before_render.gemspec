@@ -19,7 +19,6 @@ Gem::Specification.new do |gem|
     gem.add_dependency 'rails', '= 6.0.0.rc1'
     gem.add_dependency 'activesupport', '= 6.0.0.rc1'
 
-    gem.add_development_dependency "bundler", "~> 1.16"
     gem.add_development_dependency "rake", "~> 12.3"
     gem.add_development_dependency "minitest", "~> 5.0"
 end
