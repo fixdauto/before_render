@@ -1,9 +1,9 @@
 require 'action_controller'
 
-module Rails6BeforeRender
-    module BeforeRenderInstance
+class Rails6BeforeRender
+    class BeforeRenderInstance
 
-        def render(*args, &blk)
+        def self.render(*args, &blk)
             run_callbacks :render do
                 super
             end
