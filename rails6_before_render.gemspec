@@ -16,8 +16,8 @@ Gem::Specification.new do |gem|
     gem.version       = BeforeRender::VERSION
     gem.licenses      = ["MIT"]
 
-    gem.add_dependency 'rails', '= 6.0.0.rc1'
-    gem.add_dependency 'activesupport', '= 6.0.0.rc1'
+    gem.add_dependency "rails" , "~> 6.0.0"
+    gem.add_dependency "activesupport", "~> 6.0.0"
 
     gem.add_development_dependency "rake", "~> 12.3"
     gem.add_development_dependency "minitest", "~> 5.0"
