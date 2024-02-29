@@ -16,8 +16,8 @@ Gem::Specification.new do |gem|
   gem.licenses      = ['MIT']
 
   gem.add_dependency 'activesupport', '~> 6.1.7'
-  gem.add_dependency 'rails', '~> 6.1.7'
+  gem.add_dependency 'rails', '~> 7.1.3.2'
 
   gem.add_development_dependency 'minitest', '~> 5.0'
-  gem.add_development_dependency 'rake', '~> 12.3'
+  gem.add_development_dependency 'rake', '~> 13.1'
 end
