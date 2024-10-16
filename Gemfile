@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gemspec
 
-ruby '2.7.6'
+ruby '3.3.0'
 
 gem 'activesupport', '>= 5.0'
 
